@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animation and Transition Example</title>
+    <style>
+        /* General styles for the div */
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            animation-name: colorChange;
+
+            animation-iteration-count: infinite;
+            transition: width 2s;
+        }
+
+        /* Different transition timing functions */
+        #box1 {animation-duration: 9s; }
+        #box2 {animation-duration: 1s; }
+        #box3 {animation-duration: 1s;}
+        #box4 {animation-duration: 1s; }
+        #box5 {animation-duration: 1s; }
+
+        /* Keyframes for color change animation */
+        @keyframes colorChange {
+            0%   {background-color: red;}
+            25%  {background-color: yellow;}
+            75%  {background-color: blue;}
+            100% {background-color: green;}
+        }
+
+        /* Hover effect to change the width of the div */
+
+    </style>
+</head>
+<body>
+
+<h1>CSS Animation and Transition</h1>
+
+<p>Hover over the boxes below to see the color change and the width transition with different timing functions:</p>
+
+<div id="box1" class="box">linear</div><br>
+<div id="box2" class="box">ease</div><br>
+<div id="box3" class="box">ease-in</div><br>
+<div id="box4" class="box">ease-out</div><br>
+<div id="box5" class="box">ease-in-out</div><br>
+
+<p><b>Note:</b> The background color of each box will continuously change according to the animation defined, and the width will change when you hover over it.</p>
+
+</body>
+</html>

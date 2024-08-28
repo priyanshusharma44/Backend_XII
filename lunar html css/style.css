@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: fixed;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://getwallpapers.com/wallpaper/full/a/d/7/1296509-mountain-pics-wallpaper-1920x1080-screen.jpg');
+    background-size: cover;
+}
+
+.container {
+
+    box-shadow: 0 0 10px rgba(3, 152, 172, 0.5);
+    height: 400px;
+    width: 50%;
+    display: flex;
+  
+    overflow: hidden; 
+}
+
+.container .left {
+    width: 50%;
+    height: 100%;
+
+    background-image: url('https://images.pexels.com/photos/1670187/pexels-photo-1670187.jpeg?cs=srgb&dl=pexels-eberhardgross-1670187.jpg&fm=jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.container .right {
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: top; 
+    align-items: center; 
+}
+
+
+.container .right label {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #333;
+    text-align: left; 
+    width: 100%; 
+}
+
+.container .right input {
+    margin-bottom: 15px;
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%; 
+    box-sizing: border-box; 
+}
+
+.container .right input[type="submit"] {
+    cursor: pointer;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(66, 66, 182);
+    color: #fff;
+    font-size: 16px;
+    width: 100%; 
+
+}
+
+.container .right input[type="submit"]:hover {
+    background-color: rgb(48, 48, 148);
+}

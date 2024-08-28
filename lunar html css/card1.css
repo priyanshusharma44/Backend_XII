@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+ .container{
+    /* border: 2px solid ; */
+    height: 420px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.9);
+    border-radius: 6px;
+}
+ .container .img{
+    background-image: url('https://papershootcamera.com/cdn/shop/collections/Paper_Shoot_Camera_April_2024_Shoot_Hi-Res-4-WillCrooks.jpg?crop=center&height=3504&v=1715956752&width=3504%27');
+    height: 190px;
+    width: 350px;
+    box-sizing: border-box;
+    background-position: bottom;
+    background-size: cover;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.9);
+}
+.container .title{
+    font-size: 14px;
+}
+.container .description{
+    font-size: 16px;
+    /* border: 2px solid blue; */
+    text-align: center;
+    margin: 0 7px;
+}
+.container .btn button{
+    margin-top: 12px;
+    border: none;
+    padding: 13px;
+    width: 96%;
+    background-color: rgb(123, 123, 180);
+    border-radius: 9px;
+    color: #fff;
+}
+.container .btn button:hover{
+    background-color: rgb(91, 91, 198);
+
+}
